@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Slideshow</title>
+    <br />
+  </head>
+  <body class="body1">
+    
+    <div class="container">
+      <center><h1>My Pics</h1>
+      <div class="carousel slide" id="mycarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="SonuPhoto.jpg" />
+            <p>Rugvedh</p>
+          </div>
+
+          <div class="item">
+            <img src="birthday.jpg" />
+            <p>Rugvedh</p>
+          </div>
+          <div class="item">
+            <img src="5N.JPG" />
+            <p>Rugvedh</p>
+          </div>
+          <div class="item">
+            <img src="roblox11.jpg" />
+            <p>Rugvedh</p>
+          </div>
+
+        </div>
+        <a class="left carousel-control" href="#mycarousel" data-slide = "prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide = "next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+           </a>
+          </div>
+          <br>
+      <button class = "btn btn-info btn-lg " onclick = "playsound()">Click here</button>
+    </center>
+    </div>
+    <br>
+    <audio id = "myaudio" src = "bdayaudio.mp3"></audio>
+    <script src = "main.js"></script> 
+  </body>
+</html>
